@@ -13,6 +13,6 @@ app.use(express.json())
 app.use("/api",UserRoutes);
 app.use("/api",BookRoutes);
 
-app.listen(process.env.port,()=>{
-    console.log(`Server is running on port ${process.env.port}`);
+app.listen(process.env.PORT,()=>{
+    console.log(`Server is running on port ${process.env.PORT}`);
 })
